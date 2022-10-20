@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 2px;
 }
 
 .navbar{
@@ -20,18 +20,89 @@ body{
     position: absolute;
 }
 
-ul{
+.aa1{
     margin-left: 1200px;
 }
 
-li{
+.aa2{
     float: left;
     list-style: none;
     margin-left: 60px;
     color: white;
     font-size: 18px;
+    margin-top: 15px;
 }
 
-li:hover{
+.aa2:hover{
     color: #045690;
+}
+
+.bb3:hover{
+    color: #045690;
+}
+
+.carrosel{
+    margin-top: 70px;
+}
+
+.cards{
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.aa{
+    height: 200px;
+    display: flex;
+}
+
+footer{
+    background: rgb(52,221,90);
+    background: linear-gradient(90deg, rgba(52,221,90,1) 38%, rgba(14,148,67,1) 100%);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.bb2{
+    margin-left: 300px;
+}
+
+.bbb{
+    list-style: none;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.bbbb{
+    list-style: none;
+    margin-left: 490px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.bb3{
+    list-style: none;
+    color: white;
+}
+
+ul{
+    float: left;
+}
+
+.logo1{
+    background: rgb(52,221,90);
+    background: linear-gradient(90deg, rgba(52,221,90,1) 38%, rgba(14,148,67,1) 100%);
+    height: 330px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo2{
+    margin-top: 250px;
 }
