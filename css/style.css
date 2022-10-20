@@ -11,7 +11,6 @@ body{
     display: flex;
     position: absolute;
     align-items: center;
-
 }
 
 .logo{
@@ -106,3 +105,54 @@ ul{
 .logo2{
     margin-top: 250px;
 }
+
+.main{
+    display: grid;
+    margin-bottom: 25%;
+}
+
+.main > form{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main > form > .form-label{
+    position: relative;
+    left: 40%;
+}
+
+.main > form > .form-label > label{
+    padding: 0;
+    margin: 0;
+}
+
+.main > form > .form-input{
+    position: relative;
+    left: 43%;
+}
+
+.main > form > .form-input > #enviar{
+    position: relative;
+    right: 20%;
+    top: 15%;
+}
+
+.main > .voluntariar{
+    text-align: center;
+    margin: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
